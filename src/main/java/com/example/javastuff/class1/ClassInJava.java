@@ -1,4 +1,4 @@
-package com.example.javastuff;
+package com.example.javastuff.class1;
 
 public class ClassInJava {
     static {
@@ -9,8 +9,8 @@ public class ClassInJava {
         System.out.println("This is non static block");
     }
 
-    ClassInJava() {
-        System.out.println("This is constractor");
+    ClassInJava(String place) {
+        System.out.println("This is constractor:" +place);
     }
 
     String name = "Uday";
