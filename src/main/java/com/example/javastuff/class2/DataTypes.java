@@ -48,4 +48,11 @@ public class DataTypes {
         System.out.println("Boolean size: Not defined in Java");
 
     }
+
+    private void actionHandler_nonPrimitiveDataTypesInJava() {
+        //Arrays
+        //Collections
+        //Interface
+        //Class
+    }
 }
